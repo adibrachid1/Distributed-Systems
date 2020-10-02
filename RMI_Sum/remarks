@@ -1,0 +1,8 @@
+//compile:
+javac CountRMI.java CountRMIImpl.java CountRMIClient.java CountRMIServer.java
+rmic CountRMIImpl
+
+//executer:
+start rmiregistry
+java -Djava.security.policy=mysecurity.policy CountRMIServer
+java -Djava.security.policy=mysecurity.policy CountRMIClient 127.0.0.1

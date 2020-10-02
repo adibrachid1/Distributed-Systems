@@ -1,0 +1,4 @@
+1- connect
+2- connecto_    _: number
+3-chat...
+4-exit   -> should reconnect

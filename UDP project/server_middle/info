@@ -1,0 +1,5 @@
+1- connect
+2- connectto
+3- who to connect : _.  _ is a number
+4- start messaging
+5- exit.  -> should reconnect
